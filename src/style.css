@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #18181a;
+  color: #f5f1f0;
+  font-family: 'Orbitron', sans-serif;
+}
+
+nav {
+    background: #252528;
+}
+
+.nav-items {
+  margin: 0 70px;
+  padding: 0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+  list-style-type: none;
+}
+
+.nav-items img {
+    width: 100px;
+}
+
+.logoAndTitle {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    /* padding-right: 100px; */
+    letter-spacing: 2px;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.home-img {
+    margin-top: 70px;
+}
+
+.nav-button {
+    background-color: #ff9301;
+    width: 150px;
+    height: 42px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+.home-button {
+    margin-top : 45px;
+    margin: auto;
+}
+
+.tagline {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    width: 700px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+/* Converter {
+    background: white;
+} */
+
+@media (min-width: 700px) {
+    /* … */
+  }
