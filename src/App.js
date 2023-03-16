@@ -1,22 +1,24 @@
 import './style.css';
-import React, { useState } from 'react';
+import React from 'react';
 import Converter from './Converter';
-import Navbar from './Navbar';
+import Explain from './Explain';
+import Comment from './Comment'
 import Home from './Home'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
-
-  const [component, setComponent] = useState("home")
-
   return (
     <>
-      <Navbar />
-      {component == "home" ? <Home /> : null}
-      {component == "home" ? <div className='nav-button home-button' onClick={() => setComponent((newComponent) => newComponent = "converter")}>Get Started</div> : null}
-      {component == "converter" ? <Converter /> : null}
-      
-    </>
-  );
+      <BrowserRouter>
+        <Routes>
+          <Route exact path='*' element={<Home />} />
+          <Route exact path='/converter' element={<Converter />} />
+          <Route exact path='/explain' element={<Explain />} />
+          <Route exact path='/comment' element={<Comment />} />
+        </Routes>
+      </BrowserRouter>
+      </>
+    );
 }
 
 export default App;
