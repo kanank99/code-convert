@@ -1,6 +1,6 @@
-# Code-Convert App
+# Code-Convert
 
-The Code-Convert App is a React-based web application that is powered by the OpenAPI to help users convert code snippets into different programming languages, comment out code snippets, or explain what the code will accomplish.
+The Code-Convert is a React-based web application that is powered by the OpenAPI to help users convert code snippets into different programming languages, comment out code snippets, or explain what the code will accomplish.
 
 ## Features
 
