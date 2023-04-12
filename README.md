@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+Code-Convert App
+The Code-Convert App is a React-based web application that is powered by the OpenAPI to help users convert code snippets into different programming languages, comment out code snippets or explain what the code will accomplish.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Installation
+To run the Code-Convert App locally, you need to install the following software:
 
-## Available Scripts
+Node.js v12 or higher
+NPM (Node Package Manager)
+After installing Node.js and NPM, run the following command in the terminal to install the dependencies:
 
-In the project directory, you can run:
+sh
+Copy code
+npm install
+Usage
+To start the Code-Convert App, run the following command in the terminal:
 
-### `npm start`
+sh
+Copy code
+npm start
+After starting the app, you can access it in your web browser by visiting http://localhost:3000.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Features
+The Code-Convert App provides the following features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Translate Code
+The app allows users to translate code from one programming language to another. To use this feature, the user enters the code snippet they want to translate and selects the target programming language from the dropdown menu. The app then uses the OpenAPI to translate the code and displays the translated code in a new text area.
 
-### `npm test`
+Comment Code
+The app allows users to comment out code snippets, with comments explaining what each line of code does. To use this feature, the user enters the code snippet they want to comment out and clicks the "Comment" button. The app then uses the OpenAPI to comment out the code and displays the commented code in a new text area.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Explain Code
+The app allows users to get an explanation of what a code snippet does. To use this feature, the user enters the code snippet they want to explain and clicks the "Explain" button. The app then uses the OpenAPI to analyze the code and provides a brief explanation of what the code does.
 
-### `npm run build`
+Contributing
+If you want to contribute to the Code-Convert App, you can fork the repository and submit a pull request. Please make sure to follow the coding conventions and write tests for any new features or bug fixes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+License
+The Code-Convert App is released under the MIT License. See LICENSE for more information.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
